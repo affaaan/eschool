@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:  #E5E5E5;
+}
+header{
+    background: #F0FFF0;
+    height: 100vh;
+
+}
+.navbar-brand{
+    width: 150px;
+}
+.sign_in{
+background:  #21B573;
+border-radius: 20px;
+color: white;
+padding: 5px 10px;
+
+
+
+}
+.sign_in:hover{
+    background-color:  #18774c;
+    color: white;
+}
+.middle_img{
+ min-height: 80vh;
+ display: flex;
+ align-items: center;
+}
+.middle_img p{
+    
+font-weight: 400;
+    
+font-size: 16px;
+    
+line-height: 35px;
+}
+/* feature section start from here */
+
+.feature_section{
+padding: 50px 0px;
+background-color: #fff;
+}
+.feature{
+text-align: center;
+padding: 30px 0px;
+background: #F8FFFB;
+}
+.feature:hover{
+     background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+}
+.feature img{  
+width: 70px;
+}
+.feature h3{
+font-weight: 500;
+font-size: 24px;
+line-height: 50px;
+}
+.feature p{  
+font-weight: 400;   
+font-size: 16px;   
+line-height: 0px;
+}
+/* online courses section starts from here */
+.sub{
+    width: 98%;
+    background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+padding: 20px;
+
+} 
+.sub h4{
+    color: #413960;
+}
+
+/* testimonial section start from here */
+.testimonial_flex{  
+margin: auto;  
+display: flex; 
+align-items: center;
+}
+.testimonial img{
+    width: 80px;
+    margin-right: 30px;
+}
+
+/* footer section starts from here */
+footer{
+    background: #282531;
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.footer_col{
+    justify-content: center;
+}
+.footer_col ul{
+    list-style: none;
+    padding-left: initial;
+}
+
